@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Site Planning and UX">
+        <meta name="keywords" content="site, planning, ux">
+        <meta name="author" content="Jocelyn Perez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #container header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            font-size: medium;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #flexcontainer {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            background-color: gray;
+            background-size: 100%;
+            background-position: center;
+        }
+            img {
+                display: inline-block;
+                width: 20%;
+                margin: auto;
+                object-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+           <header>Assignment 2
+
+            </header> 
+            <main id="flexcontainer">
+                <img src="./img/sitemap.png" alt="Site Map">
+                <img src="./img/Website.png" alt="Website">
+                <img src="./img/iPad.png" alt="iPad view of site">
+                <img src="./img/iPhone.png" alt="iPhone view of the site">
+            </main>
+        </div>
+    </body>
+</html>
